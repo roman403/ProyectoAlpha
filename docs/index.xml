@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
+    <link>https://roman403.github.io/ProyectoAlpha/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jan 2025 13:12:22 +0100</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://roman403.github.io/ProyectoAlpha/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nginx</title>
-      <link>https://example.org/posts/nginx/</link>
+      <link>https://roman403.github.io/ProyectoAlpha/posts/nginx/</link>
       <pubDate>Sat, 18 Jan 2025 13:12:22 +0100</pubDate>
-      <guid>https://example.org/posts/nginx/</guid>
+      <guid>https://roman403.github.io/ProyectoAlpha/posts/nginx/</guid>
       <description>&lt;p&gt;Esto es la documentacion de Nginx&lt;/p&gt;</description>
     </item>
     <item>
       <title>DNS</title>
-      <link>https://example.org/posts/dns/</link>
+      <link>https://roman403.github.io/ProyectoAlpha/posts/dns/</link>
       <pubDate>Sat, 18 Jan 2025 13:11:55 +0100</pubDate>
-      <guid>https://example.org/posts/dns/</guid>
+      <guid>https://roman403.github.io/ProyectoAlpha/posts/dns/</guid>
       <description>&lt;p&gt;Esto es la documentacion del dns&lt;/p&gt;</description>
     </item>
     <item>
       <title>Documentacion</title>
-      <link>https://example.org/documentacion/</link>
+      <link>https://roman403.github.io/ProyectoAlpha/documentacion/</link>
       <pubDate>Sat, 18 Jan 2025 13:00:47 +0100</pubDate>
-      <guid>https://example.org/documentacion/</guid>
+      <guid>https://roman403.github.io/ProyectoAlpha/documentacion/</guid>
       <description>&lt;p&gt;Estes es un sitio web creado con hugo&lt;/p&gt;&#xA;&lt;p&gt;estoy probandoa ver si funciona yaaa&lt;/p&gt;&#xA;&lt;p&gt;Es super poderoso&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rapdio&lt;/li&gt;&#xA;&lt;li&gt;lente&lt;/li&gt;&#xA;&lt;li&gt;poco&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
