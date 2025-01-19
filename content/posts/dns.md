@@ -5,7 +5,6 @@ date: 2025-01-18T13:11:55+01:00
 # bookSearchExclude: false
 ---
 
-```markdown
 # Configuración de DNS en AWS
 
 ## Paso 1: Crear las máquinas en AWS
