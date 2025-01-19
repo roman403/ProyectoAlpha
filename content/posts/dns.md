@@ -4,7 +4,6 @@ date: 2025-01-18T13:11:55+01:00
 # bookComments: false
 # bookSearchExclude: false
 ---
-Aquí tienes el texto en formato Markdown, incluyendo indicaciones para las imágenes: 
 
 ```markdown
 # Configuración de DNS en AWS
