@@ -13,7 +13,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![Conexión remota](docs/imagenes/dns1.png)
+![Conexión remota](/imagenes/dns1.png)
 
 ---
 
@@ -21,7 +21,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 Una vez conectados, instalamos el servicio DNS desde **Roles y Características**.
 
-![Instalación de DNS](docs/imagenes/dns2.png)
+![Instalación de DNS](/imagenes/dns2.png)
 
 ---
 
@@ -29,7 +29,7 @@ Una vez conectados, instalamos el servicio DNS desde **Roles y Características*
 
 Nos dirigimos a **Herramientas Administrativas** y seleccionamos **DNS**.
 
-![Herramientas Administrativas - DNS](docs/imagenes/dns3.png)
+![Herramientas Administrativas - DNS](/imagenes/dns3.png)
 
 ---
 
@@ -37,7 +37,7 @@ Nos dirigimos a **Herramientas Administrativas** y seleccionamos **DNS**.
 
 Creamos una **Zona Nueva Primaria**.
 
-![Crear zona primaria](rudocs/imagenes/dns4.png)
+![Crear zona primaria](/imagenes/dns4.png)
 
 ---
 
@@ -45,7 +45,7 @@ Creamos una **Zona Nueva Primaria**.
 
 Configuramos el dominio deseado.
 
-![Configuración del dominio](docs/imagenes/dns5.png)
+![Configuración del dominio](/imagenes/dns5.png)
 
 ---
 
@@ -53,7 +53,7 @@ Configuramos el dominio deseado.
 
 Creamos 4 alias que representarán las máquinas que usaremos en el reto (utilizando las IPs privadas).
 
-![Crear alias](docs/imagenes/dns6.png)
+![Crear alias](/imagenes/dns6.png)
 
 ---
 
@@ -61,7 +61,7 @@ Creamos 4 alias que representarán las máquinas que usaremos en el reto (utiliz
 
 Añadimos un servidor secundario, configurado para realizar la transferencia solo a dicho equipo por motivos de seguridad. Este servidor será una máquina con **Ubuntu 24**.
 
-![Configuración del servidor secundario](docs/imagenes/dns7.png)
+![Configuración del servidor secundario](/imagenes/dns7.png)
 
 ---
 
@@ -69,7 +69,7 @@ Añadimos un servidor secundario, configurado para realizar la transferencia sol
 
 Modificamos la configuración del DNS en la máquina primaria y realizamos una comprobación para validar los cambios.
 
-![Cambio y comprobación del DNS](docs/imagenes/dns8.png)
+![Cambio y comprobación del DNS](/imagenes/dns8.png)
 
 ---
 

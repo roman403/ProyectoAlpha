@@ -177,56 +177,56 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 <p>Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos mediante acceso remoto de Windows. Usamos el usuario <code>Administrator</code> y la IP pública de la máquina.</p>
 <p><strong>Sistema Operativo:</strong> Windows Server 2022</p>
-<p><img src="docs/imagenes/dns1.png" alt="Conexión remota" /></p>
+<p><img src="/imagenes/dns1.png" alt="Conexión remota" /></p>
 <hr>
 <h2 id="paso-2-instalación-del-dns">
   Paso 2: Instalación del DNS
   <a class="anchor" href="#paso-2-instalaci%c3%b3n-del-dns">#</a>
 </h2>
 <p>Una vez conectados, instalamos el servicio DNS desde <strong>Roles y Características</strong>.</p>
-<p><img src="docs/imagenes/dns2.png" alt="Instalación de DNS" /></p>
+<p><img src="/imagenes/dns2.png" alt="Instalación de DNS" /></p>
 <hr>
 <h2 id="paso-3-acceso-a-herramientas-administrativas">
   Paso 3: Acceso a Herramientas Administrativas
   <a class="anchor" href="#paso-3-acceso-a-herramientas-administrativas">#</a>
 </h2>
 <p>Nos dirigimos a <strong>Herramientas Administrativas</strong> y seleccionamos <strong>DNS</strong>.</p>
-<p><img src="docs/imagenes/dns3.png" alt="Herramientas Administrativas - DNS" /></p>
+<p><img src="/imagenes/dns3.png" alt="Herramientas Administrativas - DNS" /></p>
 <hr>
 <h2 id="paso-4-crear-una-zona-primaria">
   Paso 4: Crear una zona primaria
   <a class="anchor" href="#paso-4-crear-una-zona-primaria">#</a>
 </h2>
 <p>Creamos una <strong>Zona Nueva Primaria</strong>.</p>
-<p><img src="rudocs/imagenes/dns4.png" alt="Crear zona primaria" /></p>
+<p><img src="/imagenes/dns4.png" alt="Crear zona primaria" /></p>
 <hr>
 <h2 id="paso-5-configurar-el-dominio">
   Paso 5: Configurar el dominio
   <a class="anchor" href="#paso-5-configurar-el-dominio">#</a>
 </h2>
 <p>Configuramos el dominio deseado.</p>
-<p><img src="docs/imagenes/dns5.png" alt="Configuración del dominio" /></p>
+<p><img src="/imagenes/dns5.png" alt="Configuración del dominio" /></p>
 <hr>
 <h2 id="paso-6-crear-alias-para-las-máquinas">
   Paso 6: Crear alias para las máquinas
   <a class="anchor" href="#paso-6-crear-alias-para-las-m%c3%a1quinas">#</a>
 </h2>
 <p>Creamos 4 alias que representarán las máquinas que usaremos en el reto (utilizando las IPs privadas).</p>
-<p><img src="docs/imagenes/dns6.png" alt="Crear alias" /></p>
+<p><img src="/imagenes/dns6.png" alt="Crear alias" /></p>
 <hr>
 <h2 id="paso-7-configurar-un-servidor-secundario">
   Paso 7: Configurar un servidor secundario
   <a class="anchor" href="#paso-7-configurar-un-servidor-secundario">#</a>
 </h2>
 <p>Añadimos un servidor secundario, configurado para realizar la transferencia solo a dicho equipo por motivos de seguridad. Este servidor será una máquina con <strong>Ubuntu 24</strong>.</p>
-<p><img src="docs/imagenes/dns7.png" alt="Configuración del servidor secundario" /></p>
+<p><img src="/imagenes/dns7.png" alt="Configuración del servidor secundario" /></p>
 <hr>
 <h2 id="paso-8-cambiar-el-dns-de-la-máquina-primaria-y-realizar-comprobaciones">
   Paso 8: Cambiar el DNS de la máquina primaria y realizar comprobaciones
   <a class="anchor" href="#paso-8-cambiar-el-dns-de-la-m%c3%a1quina-primaria-y-realizar-comprobaciones">#</a>
 </h2>
 <p>Modificamos la configuración del DNS en la máquina primaria y realizamos una comprobación para validar los cambios.</p>
-<p><img src="docs/imagenes/dns8.png" alt="Cambio y comprobación del DNS" /></p>
+<p><img src="/imagenes/dns8.png" alt="Cambio y comprobación del DNS" /></p>
 <hr>
 <h2 id="paso-9-configuración-del-servidor-secundario">
   Paso 9: Configuración del servidor secundario
