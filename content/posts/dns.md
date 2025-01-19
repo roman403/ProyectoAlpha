@@ -13,7 +13,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![Conexión remota](/imagenes/dns1.png)
+![Conexión remota](https://github.com/roman403/ProyectoAlpha/tree/main/docs/imagenes/dns1.png)
 
 ---
 
@@ -37,7 +37,7 @@ Nos dirigimos a **Herramientas Administrativas** y seleccionamos **DNS**.
 
 Creamos una **Zona Nueva Primaria**.
 
-![Crear zona primaria](/imagenes/dns4.png)
+![Crear zona primaria](https://github.com/roman403/ProyectoAlpha/tree/main/docs/imagenes/dns4.png)
 
 ---
 
