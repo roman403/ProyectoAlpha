@@ -13,7 +13,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![Conexión remota](/static/imagenes/dns1.png)
+![Conexión remota](https://github.com/roman403/ProyectoAlpha/blob/main/static/imagenes/dns1.png)
 
 ---
 
