@@ -13,8 +13,8 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![OpenWebDocs Logo: Carle el ratón de biblioteca](dns1.png)
-<img alt="OpenWebDocs Logo: Carle el ratón de biblioteca" src="dns1.png" />
+![OpenWebDocs Logo: Carle el ratón de biblioteca](docs/posts/dns1.png)
+<img alt="OpenWebDocs Logo: Carle el ratón de biblioteca" src="docs/posts/dns1.png" />
 
 
 
