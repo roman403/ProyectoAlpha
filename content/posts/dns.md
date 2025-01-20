@@ -13,8 +13,9 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![Texto alternativo](/static/dns1.png)
-<img src="/static/dns1.png" alt="Mi genial imagen" />
+![OpenWebDocs Logo: Carle el ratón de biblioteca](dns1.png)
+<img alt="OpenWebDocs Logo: Carle el ratón de biblioteca" src="dns1.png" />
+
 
 
 
