@@ -13,7 +13,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![a](/content/posts/dns1.png)
+![a](./dns1.png)
 
 
 
