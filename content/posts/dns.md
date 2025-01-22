@@ -25,7 +25,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 Una vez conectados, instalamos el servicio DNS desde **Roles y Características**.
 
-![Instalación de DNS](ProyectoAlpha/static/dns2.png)
+![Instalación de DNS](/ProyectoAlpha/static/dns2.png)
 
 ---
 
