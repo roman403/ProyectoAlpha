@@ -13,7 +13,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![a](/dns1.png)
+![a](/public/dns1.png)
 
 
 
@@ -25,7 +25,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 Una vez conectados, instalamos el servicio DNS desde **Roles y Características**.
 
-![Instalación de DNS](dns2.png)
+![Instalación de DNS](../dns2.png)
 
 ---
 
@@ -33,7 +33,7 @@ Una vez conectados, instalamos el servicio DNS desde **Roles y Características*
 
 Nos dirigimos a **Herramientas Administrativas** y seleccionamos **DNS**.
 
-![Herramientas Administrativas - DNS](/imagenes/dns3.png)
+![Herramientas Administrativas - DNS](https://roman403.github.io/ProyectoAlpha/dns3.png)
 
 ---
 
