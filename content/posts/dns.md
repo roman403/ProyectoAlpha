@@ -13,7 +13,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![a](https://github.com/roman403/ProyectoAlpha/blob/main/static/dns1.png)
+![a](/dns1.png)
 
 
 
@@ -25,7 +25,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 Una vez conectados, instalamos el servicio DNS desde **Roles y Características**.
 
-![Instalación de DNS](/imagenes/dns2.png)
+![Instalación de DNS](dns2.png)
 
 ---
 
