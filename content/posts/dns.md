@@ -65,7 +65,7 @@ Creamos 4 alias que representarán las máquinas que usaremos en el reto (utiliz
 
 Añadimos un servidor secundario, configurado para realizar la transferencia solo a dicho equipo por motivos de seguridad. Este servidor será una máquina con **Ubuntu 24**.
 
-![Configuración del servidor secundario](../../static/dns7.png)
+![Configuración del servidor secundario](https://roman403.github.io/ProyectoAlpha/static/dns7.png)
 
 ---
 
