@@ -13,7 +13,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![a](/public/dns1.png)
+![a]((https://roman403.github.io/ProyectoAlpha/dns1.png)
 
 
 
@@ -25,7 +25,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 Una vez conectados, instalamos el servicio DNS desde **Roles y Características**.
 
-![Instalación de DNS](../dns2.png)
+![Instalación de DNS](https://roman403.github.io/ProyectoAlpha/)
 
 ---
 
@@ -41,7 +41,7 @@ Nos dirigimos a **Herramientas Administrativas** y seleccionamos **DNS**.
 
 Creamos una **Zona Nueva Primaria**.
 
-![Crear zona primaria](https://github.com/roman403/ProyectoAlpha/tree/main/docs/imagenes/dns4.png)
+![Crear zona primaria](https://roman403.github.io/ProyectoAlpha/dns4.png)
 
 ---
 
@@ -49,7 +49,7 @@ Creamos una **Zona Nueva Primaria**.
 
 Configuramos el dominio deseado.
 
-![Configuración del dominio](/imagenes/dns5.png)
+![Configuración del dominio](https://roman403.github.io/ProyectoAlpha/dns5.png)
 
 ---
 
@@ -57,7 +57,7 @@ Configuramos el dominio deseado.
 
 Creamos 4 alias que representarán las máquinas que usaremos en el reto (utilizando las IPs privadas).
 
-![Crear alias](../../static/dns6.png)
+![Crear alias](https://roman403.github.io/ProyectoAlpha/dns6.png)
 
 ---
 
@@ -65,7 +65,7 @@ Creamos 4 alias que representarán las máquinas que usaremos en el reto (utiliz
 
 Añadimos un servidor secundario, configurado para realizar la transferencia solo a dicho equipo por motivos de seguridad. Este servidor será una máquina con **Ubuntu 24**.
 
-![Configuración del servidor secundario](https://roman403.github.io/ProyectoAlpha/static/dns7.png)
+![Configuración del servidor secundario](https://roman403.github.io/ProyectoAlpha/dns7.png)
 
 ---
 
@@ -73,7 +73,7 @@ Añadimos un servidor secundario, configurado para realizar la transferencia sol
 
 Modificamos la configuración del DNS en la máquina primaria y realizamos una comprobación para validar los cambios.
 
-![Cambio y comprobación del DNS](../../static/dns8.png)
+![Cambio y comprobación del DNS](https://roman403.github.io/ProyectoAlpha/dns8.png)
 
 ---
 
