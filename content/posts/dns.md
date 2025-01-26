@@ -73,7 +73,7 @@ Añadimos un servidor secundario, configurado para realizar la transferencia sol
 
 Modificamos la configuración del DNS en la máquina primaria y realizamos una comprobación para validar los cambios.
 
-![Cambio y comprobación del DNS](/imagenes/dns8.png)
+![Cambio y comprobación del DNS](../../static/dns8.png)
 
 ---
 
