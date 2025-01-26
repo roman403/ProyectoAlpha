@@ -13,7 +13,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 **Sistema Operativo:** Windows Server 2022
 
-![a](/content/posts/dns1.png)
+![a](./dns1.png)
 
 
 
@@ -25,7 +25,7 @@ Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos m
 
 Una vez conectados, instalamos el servicio DNS desde **Roles y Características**.
 
-![Instalación de DNS]((../../static/dns2.png)
+![Instalación de DNS](/imagenes/dns2.png)
 
 ---
 
@@ -33,7 +33,7 @@ Una vez conectados, instalamos el servicio DNS desde **Roles y Características*
 
 Nos dirigimos a **Herramientas Administrativas** y seleccionamos **DNS**.
 
-![Herramientas Administrativas - DNS]((../../static/dns3.png)
+![Herramientas Administrativas - DNS](/imagenes/dns3.png)
 
 ---
 
@@ -41,7 +41,7 @@ Nos dirigimos a **Herramientas Administrativas** y seleccionamos **DNS**.
 
 Creamos una **Zona Nueva Primaria**.
 
-![Crear zona primaria]((../../static/dns4.png)
+![Crear zona primaria](https://github.com/roman403/ProyectoAlpha/tree/main/docs/imagenes/dns4.png)
 
 ---
 
@@ -49,7 +49,7 @@ Creamos una **Zona Nueva Primaria**.
 
 Configuramos el dominio deseado.
 
-![Configuración del dominio]((../../static/dns5.png)
+![Configuración del dominio](/imagenes/dns5.png)
 
 ---
 
@@ -73,7 +73,7 @@ Añadimos un servidor secundario, configurado para realizar la transferencia sol
 
 Modificamos la configuración del DNS en la máquina primaria y realizamos una comprobación para validar los cambios.
 
-![Cambio y comprobación del DNS]((../../static/dns8.png)
+![Cambio y comprobación del DNS](/imagenes/dns8.png)
 
 ---
 

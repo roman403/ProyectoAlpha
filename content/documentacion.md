@@ -4,12 +4,4 @@ draft: false
 title: "Documentacion"
 ---
 
-Estes es un sitio web creado con hugo
-
-estoy probandoa ver si funciona yaaa
-
-Es super poderoso
-
-- Rapdio
-- lente
-- poco
+Esto es un apartado donde se podrá subir la documentación generica para que todos los miembros del equipo puedan estar informados
