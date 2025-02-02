@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head>
+<head><script src="/ProyectoAlpha/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=ProyectoAlpha/livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="
@@ -23,7 +23,7 @@ Una vez conectados, instalamos el servicio DNS desde Roles y Características.
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://roman403.github.io/ProyectoAlpha/posts/dns/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/ProyectoAlpha/posts/dns/">
   <meta property="og:site_name" content="Proyecto-Alpha">
   <meta property="og:title" content="DNS">
   <meta property="og:description" content="Configuración de DNS en AWS#Paso 1: Crear las máquinas en AWS#Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos mediante acceso remoto de Windows. Usamos el usuario Administrator y la IP pública de la máquina.
@@ -37,7 +37,7 @@ Paso 2: Instalación del DNS#Una vez conectados, instalamos el servicio DNS de
 <title>DNS | Proyecto-Alpha</title>
 <link rel="icon" href="/ProyectoAlpha/favicon.png" >
 <link rel="manifest" href="/ProyectoAlpha/manifest.json">
-<link rel="canonical" href="https://roman403.github.io/ProyectoAlpha/posts/dns/">
+<link rel="canonical" href="http://localhost:1313/ProyectoAlpha/posts/dns/">
 <link rel="stylesheet" href="/ProyectoAlpha/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/ProyectoAlpha/fuse.min.js"></script>
   <script defer src="/ProyectoAlpha/en.search.min.865bd14393c45002a64dee4af9cc72daad0161efb0f0a6c9855ca24dfda5dcea.js" integrity="sha256-hlvRQ5PEUAKmTe5K&#43;cxy2q0BYe&#43;w8KbJhVyiTf2l3Oo=" crossorigin="anonymous"></script>
@@ -178,56 +178,56 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 <p>Creamos las máquinas en AWS y usamos la contraseña generada para conectarnos mediante acceso remoto de Windows. Usamos el usuario <code>Administrator</code> y la IP pública de la máquina.</p>
 <p><strong>Sistema Operativo:</strong> Windows Server 2022</p>
-<p><img src="https://github.com/roman403/ProyectoAlpha/blob/main/static/dns1.png" alt="a" /></p>
+<p><img src="https://roman403.github.io/ProyectoAlpha/dns1.png" alt="a" /></p>
 <hr>
 <h2 id="paso-2-instalación-del-dns">
   Paso 2: Instalación del DNS
   <a class="anchor" href="#paso-2-instalaci%c3%b3n-del-dns">#</a>
 </h2>
 <p>Una vez conectados, instalamos el servicio DNS desde <strong>Roles y Características</strong>.</p>
-<p><img src="/imagenes/dns2.png" alt="Instalación de DNS" /></p>
+<p><img src="https://roman403.github.io/ProyectoAlpha/dns2.png" alt="Instalación de DNS" /></p>
 <hr>
 <h2 id="paso-3-acceso-a-herramientas-administrativas">
   Paso 3: Acceso a Herramientas Administrativas
   <a class="anchor" href="#paso-3-acceso-a-herramientas-administrativas">#</a>
 </h2>
 <p>Nos dirigimos a <strong>Herramientas Administrativas</strong> y seleccionamos <strong>DNS</strong>.</p>
-<p><img src="/imagenes/dns3.png" alt="Herramientas Administrativas - DNS" /></p>
+<p><img src="https://roman403.github.io/ProyectoAlpha/dns3.png" alt="Herramientas Administrativas - DNS" /></p>
 <hr>
 <h2 id="paso-4-crear-una-zona-primaria">
   Paso 4: Crear una zona primaria
   <a class="anchor" href="#paso-4-crear-una-zona-primaria">#</a>
 </h2>
 <p>Creamos una <strong>Zona Nueva Primaria</strong>.</p>
-<p><img src="https://github.com/roman403/ProyectoAlpha/tree/main/docs/imagenes/dns4.png" alt="Crear zona primaria" /></p>
+<p><img src="https://roman403.github.io/ProyectoAlpha/dns4.png" alt="Crear zona primaria" /></p>
 <hr>
 <h2 id="paso-5-configurar-el-dominio">
   Paso 5: Configurar el dominio
   <a class="anchor" href="#paso-5-configurar-el-dominio">#</a>
 </h2>
 <p>Configuramos el dominio deseado.</p>
-<p><img src="/imagenes/dns5.png" alt="Configuración del dominio" /></p>
+<p><img src="https://roman403.github.io/ProyectoAlpha/dns5.png" alt="Configuración del dominio" /></p>
 <hr>
 <h2 id="paso-6-crear-alias-para-las-máquinas">
   Paso 6: Crear alias para las máquinas
   <a class="anchor" href="#paso-6-crear-alias-para-las-m%c3%a1quinas">#</a>
 </h2>
 <p>Creamos 4 alias que representarán las máquinas que usaremos en el reto (utilizando las IPs privadas).</p>
-<p><img src="../../static/dns6.png" alt="Crear alias" /></p>
+<p><img src="https://roman403.github.io/ProyectoAlpha/dns6.png" alt="Crear alias" /></p>
 <hr>
 <h2 id="paso-7-configurar-un-servidor-secundario">
   Paso 7: Configurar un servidor secundario
   <a class="anchor" href="#paso-7-configurar-un-servidor-secundario">#</a>
 </h2>
 <p>Añadimos un servidor secundario, configurado para realizar la transferencia solo a dicho equipo por motivos de seguridad. Este servidor será una máquina con <strong>Ubuntu 24</strong>.</p>
-<p><img src="https://roman403.github.io/ProyectoAlpha/static/dns7.png" alt="Configuración del servidor secundario" /></p>
+<p><img src="https://roman403.github.io/ProyectoAlpha/dns7.png" alt="Configuración del servidor secundario" /></p>
 <hr>
 <h2 id="paso-8-cambiar-el-dns-de-la-máquina-primaria-y-realizar-comprobaciones">
   Paso 8: Cambiar el DNS de la máquina primaria y realizar comprobaciones
   <a class="anchor" href="#paso-8-cambiar-el-dns-de-la-m%c3%a1quina-primaria-y-realizar-comprobaciones">#</a>
 </h2>
 <p>Modificamos la configuración del DNS en la máquina primaria y realizamos una comprobación para validar los cambios.</p>
-<p><img src="../../static/dns8.png" alt="Cambio y comprobación del DNS" /></p>
+<p><img src="https://roman403.github.io/ProyectoAlpha/dns8.png" alt="Cambio y comprobación del DNS" /></p>
 <hr>
 <h2 id="paso-9-configuración-del-servidor-secundario">
   Paso 9: Configuración del servidor secundario
